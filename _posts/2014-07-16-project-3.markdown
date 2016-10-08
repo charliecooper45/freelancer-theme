@@ -5,7 +5,7 @@ img: recruitment.png
 title: Recruitment Application
 project-date: February 2014
 description: Recruitment software developed for final year at university
-key-technologies: Java, Swing, RMI
+key-technologies: Java, Swing, RMI, MySQL
 repository-link: https://github.com/charliecooper45/recruitment-server
 site-link:
 ---
