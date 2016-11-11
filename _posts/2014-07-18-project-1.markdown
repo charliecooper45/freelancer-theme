@@ -7,5 +7,5 @@ project-date: March 2016
 description: Dynamic lodge website built with Spring
 key-technologies: Java, Spring, Thymeleaf, Postgres, Maven, JUnit, Velocity, JQuery, Bower
 repository-link: https://github.com/charliecooper45/lodgewebsitemvc
-site-link: http://www.cooperca.uk/mvcweb
+site-link: http://cooperca.uk/lodgewebsitemvc/
 ---
