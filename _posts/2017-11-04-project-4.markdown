@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+img: cycling.png
+title: Cycling App
+project-date: August 2017
+description: App to monitor and report on cycling fitness
+key-technologies: Node.js, Express, Mongo, Mongoose
+repository-link: https://github.com/charliecooper45/cycling-app
+site-link:
+---
