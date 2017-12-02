@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.4.0
+    steps:
+      - run:
+          name: host_authenticity
+          command: |
+            mkdir ~/.ssh && touch ~/.ssh/known_hosts
+            ssh-keyscan cooperca.uk >> ~/.ssh/known_hosts
+      - run:
+          name: ssh
+          command: ssh cooperca.uk "cd /opt/freelancer-theme/freelancer-theme && ./deploy.sh"
